@@ -51,3 +51,6 @@
       3) é a meta?
 
 # O Problema das N-Rainhas
+# O Problema das Jarras
+# O Prbolema da Torre de Hanói
+# Problema do Puzzle
