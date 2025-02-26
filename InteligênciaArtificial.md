@@ -1,7 +1,13 @@
 # Inteligência Artificial
 ## Técnicas de resolução de problema:
 ### Que tipo de problemas?
-- Diagnóstico ou reconhecimento de padrões
+- (A) Diagnóstico ou reconhecimento de padrões
+  - tomada de decisões
+    - área médica
+  - processamento de imagens
+- (B) Definição de passos até o estado final (empacotamento)
+  - área de jogos
+  - linha de montagem
 
 ### Sistemas de Comportamento Inteligente
 - **Base de conhecimento** (gigantesca)
@@ -10,12 +16,12 @@
 - **Aprendizagem** -> reconhecimento de padrões por treino
 
 ## Áreas
-### Métodos de busca (solução de problemas)
+### (B) Métodos de busca (solução de problemas)
 - profundidade, amplitude, subida de encosta, gulosa, A*
 - algoritmos genéticos
-### Representação de conhecimento
+### (A) (B) Representação de conhecimento
 - prolog
 - ontologia
-- sistemas multiagentes
-- redes neurais
-- processamento da língua natural - PLN
+- (B) sistemas multiagentes
+- (A) redes neurais
+- (A) processamento da língua natural - PLN
