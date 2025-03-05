@@ -54,3 +54,12 @@
 # O Problema das Jarras
 # O Prbolema da Torre de Hanói
 # Problema do Puzzle
+
+## Técnicas para construção de Sistemas de Comportamento Inteligente
+- base de conhecimento: fatos ou experiências
+- raciocínio automatizado: dedução e indução
+- aprendizagem de máquina: treinamento ou repetição de amostras - reconhecimento de padrões
+### Resolve alguns problemas:
+- problemas em que se quer os passos até o final (conhecido ou não)
+- diagnóstico - reconhecer padrões
+
