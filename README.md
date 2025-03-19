@@ -1,1 +1,1 @@
-# IA
+# Técnicas IA
