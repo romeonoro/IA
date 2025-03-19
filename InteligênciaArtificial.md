@@ -1,65 +1,95 @@
-# Inteligência Artificial
-## Técnicas de resolução de problema:
-### Que tipo de problemas?
-- (A) Diagnóstico ou reconhecimento de padrões
-  - tomada de decisões
-    - área médica
-  - processamento de imagens
-- (B) Definição de passos até o estado final (empacotamento)
-  - área de jogos
-  - linha de montagem
+# Importante Saber
 
-### Sistemas de Comportamento Inteligente
-- **Base de conhecimento** (gigantesca)
-  - fatos
-- **Raciocínio automatizado** (dedução e indução)
-- **Aprendizagem** -> reconhecimento de padrões por treino
+### Força Bruta
 
-## Áreas
-### (B) Métodos de busca (solução de problemas)
-- profundidade, amplitude, subida de encosta, gulosa, A*
-- algoritmos genéticos
-### (A) (B) Representação de conhecimento
-- prolog
-- ontologia
-- (B) sistemas multiagentes
-- (A) redes neurais
-- (A) processamento da língua natural - PLN
+- Necessita de RAM e processador
+- **Profundidade:** Estoura a memória rapidamente, necessita de bastante hardware.
+- **Amplitude:** Não estoura a memória rapidamente, usa mais largura.
+- **Características da força bruta:**
+  - Hardware poderoso/sobrando (memória RAM e processador)
+  - Uso de dicas ou informações privilegiadas (heurísticas)
+  - Pouca restrição
+  - **Custo:**
+    - Custo 1 Fixo (Puzzle)
+    - Custo Variável (Xadrez)
 
-# Problemas:
-  1) resolver o jogo da velha - B
-  2) resolver um problema de mal funcionamento de um computador - A
-  3) resolver o problema do puzzle - B
-  4) fazer a entrega de n pizzas por um motoboy em um tempo mínimo - B
-  5) montar a grade de horários em um curso de graduação - B
-  6) identificar os instrumentos musicais em uma música - A
+## Identar
 
-## Modelar a solução com alguma técnica de IA
-  1) mapear os estados possíveis do problema
-     - definir classe e seus atributos
-     - definir o estado inicial e o estado(s) final(is)
-  2) mapear os métodos das classes - Regras de Transição
-  3) mapear as restrições - método ehValido()
-  4) forma de mapear os visitados - hashSet ou uma árvore
-       - gerar uma string dos atributos daquele estado/objeto
-  5) definir o método meta ou objetivo
-     
-### Observação:
-  - toda vez que um estado/objeto é gerado é preciso fazer 3 testes:
-      1) é válido?
-      2) já visitei?
-      3) é a meta?
+### Técnicas para construção de Sistemas de Comportamento Inteligente
 
-# O Problema das N-Rainhas
-# O Problema das Jarras
-# O Prbolema da Torre de Hanói
-# Problema do Puzzle
+  - **Base de conhecimento:** Fatos ou experiências
+  - **Raciocínio automatizado:** Dedução e indução
+  - **Aprendizagem de máquina:** Treinamento ou repetição de amostras - reconhecimento
 
-## Técnicas para construção de Sistemas de Comportamento Inteligente
-- base de conhecimento: fatos ou experiências
-- raciocínio automatizado: dedução e indução
-- aprendizagem de máquina: treinamento ou repetição de amostras - reconhecimento de padrões
-### Resolve alguns problemas:
-- problemas em que se quer os passos até o final (conhecido ou não)
-- diagnóstico - reconhecer padrões
+- **Resolução de problemas:**
+  - (A) Problemas em que se quer os passos até um estado final (conhecido ou não)
+  - (B) Diagnóstico - Reconhecimento de padrões
 
+### Exemplos:
+
+1) Qual o melhor caminho de um pacote de uma rede de dados cabeada com fibra óptica? - **(A)**
+2) Saindo da pizzaria e entregando N pizzas em um tempo mínimo? - **(A)**
+3) Um programa de computador que jogue damas contra um ser humano? - **(A)**
+4) Uma função que carregue foto, obrigatoriamente, de somente um rosto de uma pessoa? - **(B)**
+   - **Desafios:**
+     1) Fazer a máquina reconhecer pessoas
+        - Treinamento:
+          - Imagens positivas: imagens de pessoas
+          - Imagens negativas: imagens sem pessoas
+          - Imagens sobrepostas
+     2) Fazer a máquina reconhecer somente um rosto
+        - Treinamento:
+          - Imagens positivas: imagens de somente um rosto
+          - Imagens negativas: imagens sem pessoas
+          - Imagens sobrepostas
+
+5) A partir da foto de uma folha de planta, informar se a planta está ou não doente? - **(B)**
+   - **Desafios:**
+     - Juntar imagens de N tipos de plantas
+     - Para cada tipo de planta, trazer imagens de doentes e não doentes
+
+## Resolução de Problemas por Métodos de Busca
+
+- **Técnica de IA para encontrar um conjunto de passos até um estado final (conhecido ou não)**
+  - **Modelagem:** Estados, regras de transição, restrições, lista de visitados, função meta
+  - **Estratégias para escolher as regras de transição:**
+    - **Métodos de busca:**
+      - **Cegos ou de força bruta:**
+        - Aplicado quando:
+          - Não se tem informação privilegiada (heurística)
+          - Hardware poderoso está disponível
+          - Pouca restrição
+        - **Largura ou amplitude:** Uso de fila
+        - **Profundidade:** Uso de pilha (recursiva)
+      - **Informados ou heurísticos:**
+        - **O que é heurística?** Informação privilegiada para aplicar uma regra de transição
+        - **Quando aplicar?**
+          - Quando se tem dica ou heurística
+          - Quando se tem pouco hardware
+          - Quando se tem muitas restrições
+        - **Principais métodos heurísticos:**
+          - **Subida de Encosta (Climb Hill):**
+            - Profundidade
+            - Custo real - g(n)
+          - **Guloso:**
+            - Amplitude
+            - Custo estimado - h(n)
+          - **A***:
+            - Amplitude
+            - Mistura custo real com custo estimado (correção)
+
+## Problemas Clássicos em IA
+
+- O Problema das *N-Rainhas*
+- O Problema das *Jarras*
+- O Problema da *Torre de Hanói*
+- O Problema do *Puzzle*
+
+## Observação Importante
+
+**Toda vez que um estado/objeto é gerado, é preciso fazer 3 testes:**
+1) É válido?
+2) Já foi visitado?
+3) É a meta?
+
+---
