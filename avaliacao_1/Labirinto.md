@@ -1,8 +1,13 @@
 <h1>Labirinto com Obstáculos</h1>
 
+<h3>Slides do Trabalho IA - Métodos de Busca, em PDF</h3>
+
+
+Clique para baixar o PDF:   [Slides Trabalho IA - Métodos de Busca.pdf](https://github.com/user-attachments/files/19439389/Slides.Trabalho.IA_Metodos.de.Busca.pdf)
+
 <h3> Integrantes do Grupo: </h3>
   
-> ***Gilberto Morales, Matheus Nogueira e Romeo Noro***
+> ***Gilberto Morales, Matheus Nogueira e Romeo Noro.***
 
 <h3> Proposta: </h3>
 
@@ -16,10 +21,3 @@
 ![image](https://github.com/user-attachments/assets/708c1604-777f-4702-851a-7e37eaa572b1)
 ![image](https://github.com/user-attachments/assets/ab3d6766-87d8-4dae-9fc7-b0bcdfbe67de)
 ![image](https://github.com/user-attachments/assets/3ee33e71-548b-4ae8-81e1-f00c49315e04)
-
-<h3>Slides do Trabalho IA - Métodos de Busca, em PDF</h3>
-
-
-Clique para baixar o PDF:   [Slides Trabalho IA - Métodos de Busca.pdf](https://github.com/user-attachments/files/19439389/Slides.Trabalho.IA_Metodos.de.Busca.pdf)
-
-
