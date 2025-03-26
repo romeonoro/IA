@@ -1,4 +1,4 @@
-# Atividades Avaliativas
+# Atividade Avaliativa
 
 ## Métodos de Busca
 
