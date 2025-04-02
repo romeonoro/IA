@@ -1,6 +1,6 @@
 # ✨ **Algoritmos Genéticos (AGs)**
 
-Os **Algoritmos Genéticos (AGs)** são uma técnica de **otimização e busca** inspirada no **processo de seleção natural** da evolução biológica. Eles simulam a "sobrevivência do mais apto" para encontrar soluções aproximadas em problemas complexos onde métodos exatos seriam inviáveis devido ao alto custo computacional.
+Os **Algoritmos Genéticos (AGs)** são uma técnica de **otimização e busca** inspirada na **teoria da evolução das espécies** de Charles Darwin. Eles simulam a "sobrevivência do mais apto" para encontrar soluções aproximadas para problemas complexos, onde métodos exatos seriam inviáveis devido ao alto custo computacional.
 
 ---
 
@@ -8,22 +8,25 @@ Os **Algoritmos Genéticos (AGs)** são uma técnica de **otimização e busca**
 Os AGs trabalham com uma **população de soluções (indivíduos)**, que evoluem ao longo de gerações através dos seguintes passos:
 
 1. **Codificação**: Representa as soluções como **cromossomos** (ex.: strings binárias, listas numéricas, etc.).
-2. **Avaliação (Fitness)**: Mede a qualidade de cada solução segundo uma **função de aptidão**.
-3. **Seleção**: Escolhe os indivíduos mais aptos para **reprodução** (métodos: roleta, torneio, elitismo).
-4. **Cruzamento (Crossover)**: Mistura partes de dois indivíduos para gerar **novos filhos**.
-5. **Mutação**: Aplica alterações aleatórias para **manter diversidade** e evitar soluções repetitivas.
-6. **Substituição**: Os novos indivíduos substituem os antigos, e o processo **se repete** até um critério de parada.
+2. **Avaliação (Fitness)**: Mede a qualidade de cada solução segundo uma **função de aptidão**, atribuindo um valor numérico.
+3. **Seleção**: Escolhe os indivíduos mais aptos para **reprodução** (métodos: roleta, torneio, elitismo). Manter um grau de aleatoriedade é essencial para garantir a diversidade genética.
+4. **Cruzamento (Crossover)**: Mistura partes de dois indivíduos para gerar **novos filhos**, combinando características herdadas.
+5. **Mutação**: Aplica alterações aleatórias para **manter diversidade** e evitar a estagnação genética.
+6. **Substituição**: Os novos indivíduos substituem os antigos. Nessa etapa:
+   - 30% da população é selecionada diretamente com base na aptidão.
+   - 70% é sorteada aleatoriamente para manter a diversidade.
+7. **Iteração**: O ciclo se repete até atingir um critério de parada (ex.: número de gerações, convergência da solução, etc.).
 
 ---
 
 ## 🏆 **Aplicações**
-Os AGs são utilizados em diversos domínios, como:
+Os AGs são amplamente utilizados em diversas áreas:
 
 - **Otimização Matemática**: Encontrar valores ótimos para funções.
 - **Machine Learning**: Ajuste de hiperparâmetros em redes neurais.
 - **Jogos e IA**: Desenvolvimento de agentes inteligentes.
 - **Logística**: Resolução do problema do caixeiro-viajante.
-- **Engenharia**: Planejamento estrutural, design de circuitos.
+- **Engenharia**: Planejamento estrutural e design de circuitos.
 - **Finanças**: Otimização de carteiras de investimentos.
 - **Saúde**: Planejamento de radioterapia, descoberta de fármacos.
 - **Arte e Design**: Geração automática de música e imagens.
@@ -43,14 +46,14 @@ Os AGs são utilizados em diversos domínios, como:
 
 ---
 
-## 🔍 **Explicação Didática** (Passo a Passo Simples)
+## 🔍 **Explicação Didática (Passo a Passo Simples)**
 
 1. **População Inicial**: Criam-se várias soluções aleatórias (ex.: 100 designs de asas de avião).
 2. **Avaliação**: Cada solução recebe uma nota (ex.: menor consumo de combustível).
 3. **Seleção**: As melhores soluções são escolhidas para gerar descendentes.
 4. **Crossover**: Mistura-se características de duas soluções boas.
-5. **Mutação**: Pequenas alterações são aplicadas para garantir diversidade.
-6. **Nova Geração**: O ciclo se repete até que se encontre uma solução satisfatória.
+5. **Mutação**: Pequenas alterações garantem diversidade.
+6. **Nova Geração**: O ciclo se repete até encontrar uma solução satisfatória.
 
 ---
 
@@ -66,7 +69,7 @@ Os AGs são utilizados em diversos domínios, como:
 
 ---
 
-## 🌟 **Exemplo Real: Criando um Avião Melhor**
+## 🌍 **Exemplo Real: Criando um Avião Melhor**
 1. **Geramos 100 modelos de asas** aleatoriamente.
 2. **Testamos o consumo de combustível** de cada um.
 3. **Escolhemos os melhores e combinamos suas características**.
@@ -78,3 +81,4 @@ Os AGs são utilizados em diversos domínios, como:
 ## ❓ **Dúvidas Comuns**
 ### 1. **AGs são iguais a outras IAs?**  
 Não! Inteligência Artificial tradicional **aprende** com dados, enquanto AGs **evoluem** por tentativa e erro.
+
