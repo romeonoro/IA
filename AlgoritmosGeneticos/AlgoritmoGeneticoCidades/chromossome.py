@@ -1,5 +1,5 @@
 import random
-from Util import Util
+from util import Util
 
 class Chromosome:
 
