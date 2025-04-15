@@ -1,6 +1,8 @@
 import random
 from chromosome import Chromosome
 
+# Try values 50, 200, 60 and 10 | 100, 500, 50 and 5.
+
 class Main:
 
     @staticmethod
