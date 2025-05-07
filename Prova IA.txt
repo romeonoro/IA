@@ -1,0 +1,14 @@
+2 - Diagnóstico: Reconhecimento de padrões e solução final ou passo a passo para chegar no objetivo
+
+completude: todas as soluções possíveis
+otimalidade: ele acha a melhor solução
+
+profundidade é estratégia que roda ações para achar uma solução baseado em pilha
+
+largura ou amplitude é baseada em fila
+
+A* custo real e custo estimado
+
+o que o estagiário faria diferente e melhor que uma IA?
+
+
