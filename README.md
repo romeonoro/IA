@@ -1,4 +1,4 @@
-# Técnicas de IA
+# [Técnicas de IA](https://github.com/alexandrezamberlan/tecnicasIA)
 ## Repositório com sugestões de códigos de algumas técnicas de IA:
 ### Métodos de busca: cega e heurística
 ### Representação do conhecimento e Raciocínio automatizado: PROLOG
